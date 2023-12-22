@@ -1,0 +1,346 @@
+## use the below data to insert into mysql table and use those data in the website
+
+
+shirts data
+_______
+
+[
+  {
+    "id": 1,
+    "name": "Men shirt",
+    "price": 300,
+    "imgURL": "https://stylesatlife.com/wp-content/uploads/2020/03/Cotton-Shirts-For-Men.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 2,
+    "name": "Men black dashed shirt",
+    "price": 500,
+    "imgURL": "https://5.imimg.com/data5/SELLER/Default/2023/1/AI/QY/RS/102058255/shimak-casual-shirts-printed-full-sleeve.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 3,
+    "name": "Men cool fashion shirt",
+    "price": 750,
+    "imgURL": "https://i.pinimg.com/236x/50/2b/c8/502bc82a86dc7d77fca19b90489a3081.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 4,
+    "name": "Men formal white shirt",
+    "price": 820,
+    "imgURL": "https://img.freepik.com/free-photo/portrait-handsome-smiling-hipster-businessman-model-wearing-casual-summer-white-shirt_158538-1002.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 5,
+    "name": "Men cool blue shirt",
+    "price": 400,
+    "imgURL": "https://images.bestsellerclothing.in/data/selected/09-Aug-2023/250134401_1.jpg?width=415&height=550&mode=fill&fill=blur&format=auto",
+    "category": "shirts"
+  },
+  {
+    "id": 6,
+    "name": "Multi color mens shirt",
+    "price": 600,
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3I0r628ccyBlJ7L18n7oHxIif2Z3Xg5BfrJrmNg6XgoVZoQo1sEqe2HZQp-VGY4KfcjQ&usqp=CAU",
+    "category": "shirts"
+  },
+  {
+    "id": 7,
+    "name": "Camio shirt for men",
+    "price": 1000,
+    "imgURL": "https://lp2.hm.com/hmgoepprod?set=source[/df/d2/dfd2877e1251f90d47478ec754366d181f98e0de.jpg],origin[dam],category[],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+    "category": "shirts"
+  },
+  {
+    "id": 8,
+    "name": "Camio gray shirt for men",
+    "price": 900,
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKii79tM6Ku0KKE7iZfgmUeF-0_lLg8-VoHVA3XwJIsC4j_avmnQE6eBJ3JlM5uxfdKqQ&usqp=CAU",
+    "category": "shirts"
+  },
+  {
+    "id": 9,
+    "name": "Blue designing shirt for men",
+    "price": 1200,
+    "imgURL": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shirt/2/j/u/l-tbh-brush-bl-the-bear-house-original-imagqpf4fnyqcehv.jpeg?q=20",
+    "category": "shirts"
+  },
+  {
+    "id": 10,
+    "name": "Printed shirt for men",
+    "price": 700,
+    "imgURL": "https://images-eu.ssl-images-amazon.com/images/I/41OQWI8p7HL._AC_SR308,462_.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 11,
+    "name": "Formal black shirt for men",
+    "price": 400,
+    "imgURL": "https://5.imimg.com/data5/SELLER/Default/2022/2/ZA/ML/VO/8834646/cat-34-60-500x500.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 12,
+    "name": "Formal dark blue shirt for men",
+    "price": 700,
+    "imgURL": "https://i.pinimg.com/736x/45/2f/dd/452fdda105f7a60f8b704a1461330e15.jpg",
+    "category": "shirts"
+  },
+  {
+    "id": 13,
+    "name": "Stylish gray shirt for men",
+    "price": 1100,
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQRZkeQE7cDPL1In-plfqVPpn-zZkMb0MbHA&usqp=CAU",
+    "category": "shirts"
+  },
+  {
+    "id": 14,
+    "name": "White party wear for men",
+    "price": 2000,
+    "imgURL": "https://static.zara.net/photos///2023/I/0/2/p/3717/302/712/2/w/560/3717302712_2_1_1.jpg?ts=1694591502403",
+    "category": "shirts"
+  },
+  {
+    "id": 15,
+    "name": "Casual men wear in light color",
+    "price": 1150,
+    "imgURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PeINeLulmEX3aonHUZnYnpKboh8mIP30iMsbAACUAxPDpR6ZOCfdUSruUnZIN3sxuN0&usqp=CAU",
+    "category": "shirts"
+  },
+  {
+    "id": 16,
+    "name": "Stylish party wear for men",
+    "price": 1300,
+    "imgURL": "https://www.jiomart.com/images/product/500x630/441138381_khaki/printed-slim-fit-shirt-with-patch-pocket-model-441138381_khaki-0-202205171051.jpg",
+    "category": "shirts"
+  }
+]
+
+
+
+pants data
+___________
+
+
+[
+  {
+    "id": 17,
+    "name": "Slim fit jeans for men",
+    "price": 2000,
+    "imgURL": "https://assets.ajio.com/medias/sys_master/root/20210923/ovv7/614b7854f997ddce89d75509/-473Wx593H-469009841-blue-MODEL.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 18,
+    "name": "Slant pocket Jeans",
+    "price": 1200,
+    "imgURL": "https://i.pinimg.com/736x/b2/59/0d/b2590d338a37fefcc4b143338c96ed14.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 19,
+    "name": "Denim Jeans for men",
+    "price": 3000,
+    "imgURL": "https://www.styledbysally.com.au/wp-content/uploads/2018/01/Classic-Blue-Men-Jeans-Pant-Cotton-Slim-Fit-Men-s-Denim-Pants-Stretch-Fashion-Mens-Clothes.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 20,
+    "name": "Men Casual Jeans",
+    "price": 2100,
+    "imgURL": "https://5.imimg.com/data5/ECOM/Default/2023/6/316839476/RH/YB/KS/9422220/fashion-men-casual-stretch-skinny-jeans-slim-fit-trousers-tight-pants-men-fashion-281.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 21,
+    "name": "Skinny Denim Jeans",
+    "price": 1700,
+    "imgURL": "https://image.made-in-china.com/44f3j00ZjTWBiysrSzE/Wholesale-Fashion-Men-Skinny-Fit-Denim-Jeans-Ripped-High-Stretch-Blue-Jeans-for-Men-Denim-Cargo-Pants.webp",
+    "category": "pants"
+  },
+  {
+    "id": 22,
+    "name": "Stylish Jeans for men",
+    "price": 1300,
+    "imgURL": "https://cdn.shopify.com/s/files/1/0608/7874/9892/products/Ly0eEcYPMA-KN-02BB-03DBlue-_281_29_540x.jpg?v=1695363964",
+    "category": "pants"
+  }
+]
+
+
+sweaters data
+______________
+
+[
+  {
+    "id": 23,
+    "name": "Hand kitten men's sweater",
+    "price": 1200,
+    "imgURL": "https://i.pinimg.com/564x/92/94/2f/92942fc63e9a11fa17eb78f5c030c77c.jpg",
+    "category": "sweaters"
+  },
+  {
+    "id": 24,
+    "name": "Crew-Neck Sweater",
+    "price": 1400,
+    "imgURL": "https://assets.ajio.com/medias/sys_master/root/20220727/lQFQ/62e06d4daeb26921af9ff682/-473Wx593H-441139910-navy-MODEL.jpg",
+    "category": "sweaters"
+  },
+  {
+    "id": 25,
+    "name": "Dashed White Sweater",
+    "price": 1000,
+    "imgURL": "https://assets.ajio.com/medias/sys_master/root/20210728/KeMn/61005f3cf997ddb3123c1536/-473Wx593H-441126271-navy-MODEL.jpg",
+    "category": "sweaters"
+  },
+  {
+    "id": 26,
+    "name": "Modern red dashed sweater",
+    "price": 1000,
+    "imgURL": "https://www.fashionbeans.com/wp-content/uploads/2022/10/closedofficial.men_RedStripes_BestSweater.jpg",
+    "category": "sweaters"
+  },
+  {
+    "id": 27,
+    "name": "Party sweater for men",
+    "price": 3000,
+    "imgURL": "https://www.themanual.com/wp-content/uploads/sites/9/2022/09/Donegal-Sweater-by-Moira-Engel-500x500-1.jpg?fit=800%2C800&p=1",
+    "category": "sweaters"
+  },
+  {
+    "id": 28,
+    "name": "Fashion sweater for men",
+    "price": 5000,
+    "imgURL": "https://i.pinimg.com/736x/d3/e2/9c/d3e29c0eeeeb538d1b554aed6475856e.jpg",
+    "category": "sweaters"
+  }
+]
+
+
+hoodies
+_________
+
+[
+  {
+    "id": 29,
+    "name": "Aqua Grey SweatShirt",
+    "price": 1100,
+    "imgURL": "https://assets.ajio.com/medias/sys_master/root/20230919/pmEz/6508d0efddf7791519e4cb74/-473Wx593H-466597825-grey-MODEL.jpg",
+    "category": "hoodies"
+  },
+  {
+    "id": 30,
+    "name": "Black panda hoodie for men",
+    "price": 700,
+    "imgURL": "https://www.beyoung.in/api/cache/catalog/c/u/cute_panda_black_hoodie_men_model_700x700.jpg",
+    "category": "hoodies"
+  },
+  {
+    "id": 31,
+    "name": "Sky blue hoodie for men",
+    "price": 800,
+    "imgURL": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/c/tr:w-270,/2cb03bcNYK_THECB00017464_1.jpg?rnd=20200526195200",
+    "category": "hoodies"
+  },
+  {
+    "id": 32,
+    "name": "Loose fit hoodie for men",
+    "price": 600,
+    "imgURL": "https://assets.ajio.com/medias/sys_master/root/20230706/enu7/64a6bcf3eebac147fc588592/-473Wx593H-466336868-beige-MODEL.jpg",
+    "category": "hoodies"
+  },
+  {
+    "id": 33,
+    "name": "Box sizing hoodie",
+    "price": 1200,
+    "imgURL": "https://i.pinimg.com/736x/6a/fb/b2/6afbb2dc2be4acc1ce4a92afea760c22.jpg",
+    "category": "hoodies"
+  }
+]
+
+
+shoes
+______________
+
+[
+  {
+    "id": 41,
+    "name": "Black luxury watch",
+    "price": 5200,
+    "imgURL": "https://bingerstore.in/cdn/shop/products/0_Switzerland-BINGER-Men-Watches-Luxury-Brand-Sapphire-Japan-Automatic-Mechanical-Watch-Men-Luminous-Hands-Stainless-Steel_grande.png?v=1573335992",
+    "category": "watches"
+  },
+  {
+    "id": 42,
+    "name": "Blue strip watch for men",
+    "price": 7200,
+    "imgURL": "https://img.tatacliq.com/images/i14/658Wx734H/MP000000019635431_658Wx734H_202310122012201.jpeg",
+    "category": "watches"
+  },
+  {
+    "id": 43,
+    "name": "Ted Baker Beige Dial Watch",
+    "price": 4000,
+    "imgURL": "https://images-static.nykaa.com/media/catalog/product/0/3/030714dBKPPGF302_1.jpg?tr=w-500,pr-true",
+    "category": "watches"
+  },
+  {
+    "id": 44,
+    "name": "Fossil Watch for men",
+    "price": 10000,
+    "imgURL": "https://fossil.scene7.com/is/image/FossilPartners/FS5986_main?$sfcc_fos_medium$",
+    "category": "watches"
+  },
+  {
+    "id": 45,
+    "name": "Cool Branded watch for men",
+    "price": 1000,
+    "imgURL": "https://sslimages.shoppersstop.com/sys-master/images/he5/hf5/27890767396894/WCAED548_NoColour.jpg_230Wx334H",
+    "category": "watches"
+  }
+]
+
+
+tshirts
+___________
+
+[
+  {
+    "id": 46,
+    "name": "Blue T-shirt for men",
+    "price": 500,
+    "imgURL": "https://thehouseofrare.com/cdn/shop/products/BLUERABBIT.jpg?v=1645448597",
+    "category": "tshirt"
+  },
+  {
+    "id": 47,
+    "name": "Round Neck Blue tshirt for men",
+    "price": 300,
+    "imgURL": "https://rukminim1.flixcart.com/image/850/1000/l4ssfww0/t-shirt/e/l/8/m-round-neck-woolen-t-shirt-ziyz-original-imagfmfay6jhbjen.jpeg?q=20",
+    "category": "tshirt"
+  },
+  {
+    "id": 48,
+    "name": "Oversize black tshirt for men",
+    "price": 500,
+    "imgURL": "https://5.imimg.com/data5/SELLER/Default/2023/1/FU/VC/MR/7633002/oversized-tshirts-500x500.jpg",
+    "category": "tshirt"
+  },
+  {
+    "id": 49,
+    "name": "Cool plain yellow tshirt",
+    "price": 400,
+    "imgURL": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1e%2Fe8%2F1ee8e6dc26ca079eda0f4a07d686b3c3186adca7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+    "category": "tshirt"
+  },
+  {
+    "id": 50,
+    "name": "plain light yellow tshirt",
+    "price": 450,
+    "imgURL": "https://sissyboy.xcdn.nl/sissy-boy-heren-coton-jaune-fonce-00054910-102_model_2.jpg?f=large",
+    "category": "tshirt"
+  }
+]
